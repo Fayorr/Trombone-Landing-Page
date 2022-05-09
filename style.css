@@ -17,8 +17,9 @@ html {
     width: 100%;
     display: flex;
     align-items: center;
-
+position: fixed;
     flex-direction: column;
+    background-color: #EEEEEE;
 }
 
 ul {
@@ -192,7 +193,7 @@ width: 3rem;
         width: 25rem;
     }
 #main{
-    margin: 1rem;
+    margin: 2.5rem 1rem;
 }
     #main h1 {
         width: 50%;
