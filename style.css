@@ -78,7 +78,10 @@ form {
     border: 0;
     background-color: #f1c40f;
 }
-
+.btn:active, .btn:hover{
+    transition: 200ms ease-in-out;
+    background-color: #FF8C00;
+}
 /* color: white; */
 
 #features {
