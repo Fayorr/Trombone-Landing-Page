@@ -24,10 +24,11 @@ html {
 
 ul {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center;
     justify-content: space-between;
-    background-color: #EEEEEE;
+    background-color: #eee;
+ /* padding: 1rem; */
     width: 25rem;
 }
 
@@ -189,11 +190,11 @@ width: 3rem;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        margin-left: 5rem;
-        width: 25rem;
+        margin-right: 1.5rem;
+        width: 20rem;
     }
 #main{
-    margin: 2.5rem 1rem;
+    margin: 3rem 1rem;
 }
     #main h1 {
         width: 50%;
