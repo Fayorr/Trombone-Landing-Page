@@ -18,8 +18,10 @@ html {
     align-items: center;
     position: fixed;
     flex-direction: column;
-    background-color: #EEEEEE;
+    background-color: #eee;
     margin-left: -2rem;
+    padding: 0;
+
 }
 
 ul {
@@ -28,8 +30,8 @@ ul {
     align-items: center;
     justify-content: space-between;
     background-color: #eee;
- /* padding: 1rem; */
     width: 25rem;
+    padding: 0;
 }
 
 #nav-link {
@@ -46,8 +48,6 @@ ul {
 #nav-bar {
     display: flex;
     flex-direction: column;
-    /* justify-content: flex-end; */
-    /* background-color: orange; */
     margin-left: 2.5rem;
 }
 
@@ -88,7 +88,7 @@ form {
     transition: 200ms ease-in-out;
     background-color: #FF8C00;
 }
-/* color: white; */
+
 
 #features {
     display: flex;
@@ -98,7 +98,7 @@ form {
     margin: 15px auto;
     padding: 1rem;
     line-height: 1.6rem;
-    /* background-color: red; */
+ 
 }
 
 #feature-btn {
@@ -191,7 +191,8 @@ width: 3rem;
         align-items: center;
         flex-direction: row;
         justify-content: space-between;
-
+    padding: 0;
+    margin: 0;
     }
 
     ul {
